@@ -33,7 +33,7 @@ function App() {
       </div>
       <div className="form">
     <form>
-        <input onChange={handleChange} type="text" value={inputText} required/>
+        <input onChange={handleChange} type="text" value={inputText} required />
     </form>
         <button onClick={addItem}>
           <span>Add</span>
