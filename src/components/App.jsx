@@ -32,7 +32,9 @@ function App() {
         <h1>To-Do List</h1>
       </div>
       <div className="form">
+    <form>
         <input onChange={handleChange} type="text" value={inputText} required/>
+    </form>
         <button onClick={addItem}>
           <span>Add</span>
         </button>
